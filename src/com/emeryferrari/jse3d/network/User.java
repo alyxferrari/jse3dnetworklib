@@ -1,6 +1,8 @@
 package com.emeryferrari.jse3d.network;
 import com.emeryferrari.jse3d.*;
-public class User {
+import java.io.*;
+public class User implements Serializable {
+	private static final long serialVersionUID = 1L;
 	private String username;
 	private Point3D location;
 	public User(String username, Point3D location) {
