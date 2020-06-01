@@ -1,9 +1,9 @@
 package com.emeryferrari.jse3d.network;
 import com.emeryferrari.jse3d.*;
-public class UserLocation {
+public class User {
 	private String username;
 	private Point3D location;
-	public UserLocation(String username, Point3D location) {
+	public User(String username, Point3D location) {
 		this.username = username;
 		this.location = location;
 	}
