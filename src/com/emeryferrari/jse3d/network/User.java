@@ -1,5 +1,5 @@
 package com.emeryferrari.jse3d.network;
-import com.emeryferrari.jse3d.obj.*;
+import com.alyxferrari.jse3d.obj.*;
 import java.io.*;
 public class User implements Serializable {
 	private static final long serialVersionUID = 1L;
